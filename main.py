@@ -1,7 +1,7 @@
 import discord
 import PyPDF2
 
-pdf_file = open('test.pdf', 'rb') # Extract the text from the PDF and store the words in a set
+pdf_file = open('CSB_Pew_Bible_2nd_Printing.pdf', 'rb') # Extract the text from the PDF and store the words in a set
 
 pdf_reader = PyPDF2.PdfReader(pdf_file) # Create a PDF reader object
 
@@ -22,6 +22,7 @@ pdf_file.close()
 class Client(discord.Client):
     async def on_ready(self):
         print(f"Logged on as {self.user}!")
+        print(holy_words)
     
     async def on_message(self, message):
         if message.author == self.user:
