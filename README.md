@@ -6,4 +6,4 @@ it is currently under development.
 
 ## DISCLAIMER
 
-I am not personally religious and this repo wasn't created with intent to attack religious people. THIS IS A JOKE!
+I am not personally religious and this repo wasn't created with intent to attack, insult, or do any mean things to religious people. THIS IS A JOKE!
