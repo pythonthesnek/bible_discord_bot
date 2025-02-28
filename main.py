@@ -28,9 +28,6 @@ class Client(discord.Client):
         if message.author == self.user:
             return
         
-        if message.content.startswith("hello"):
-            await message.channel.send(f"Hello, {message.author}")
-        
         if not any(word in message.content for word in holy_words):
             await message.channel.send("You are not holy!")
 
